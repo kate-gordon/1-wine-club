@@ -5,19 +5,27 @@ import PageTitle from "./PageTitle";
 const NavBar = () => {
   return (
     <>
-      <PageTitle />
-      <ul
+      <div
         style={{
-          listStyleType: "none",
           display: "flex",
-          justifyContent: "flex-end"
+          justifyContent: "space-between",
+          height: "10vh"
         }}
       >
-        <NavBarItem item='Catalog' />
-        <NavBarItem item='About' />
-        <NavBarItem item='News' />
-        <NavBarItem item='Wine Club' />
-      </ul>
+        <PageTitle />
+        <ul
+          style={{
+            listStyleType: "none",
+            display: "flex",
+            justifyContent: "flex-end"
+          }}
+        >
+          <NavBarItem item='Catalog' />
+          <NavBarItem item='About' />
+          <NavBarItem item='News' />
+          <NavBarItem item='Wine Club' />
+        </ul>
+      </div>
     </>
   );
 };

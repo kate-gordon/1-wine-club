@@ -1,14 +1,16 @@
 import React from "react";
 import "./App.css";
+import BodyBox from "./components/BodyBox";
 import Footer from "./components/Footer";
 import NavBar from "./components/NavBar";
-import SingleWineInfoBox from "./components/SingleWineInfoBox";
-
 function App() {
   return (
-    <div className='App'>
+    <div
+      className='App'
+     
+    >
       <NavBar />
-      <SingleWineInfoBox />
+      <BodyBox />
       <Footer />
     </div>
   );

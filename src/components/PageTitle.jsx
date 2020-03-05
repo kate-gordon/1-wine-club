@@ -1,7 +1,7 @@
 import React from "react";
 
 const PageTitle = () => {
-  return <h1>Veritas</h1>;
+  return <div style={{ padding: "30px", fontSize: "2em" }}>Veritas</div>;
 };
 
 export default PageTitle;
